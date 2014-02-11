@@ -1,6 +1,8 @@
 // Javascript
 
-var orangeBins = [234, 567, 883];
+var areaCode = 345;
+var firstPart = 344;
+var secPart = 4455;
 
-var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
-console.log(total)
+var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" +  String(secPart);
+console.log(phoneNo)
