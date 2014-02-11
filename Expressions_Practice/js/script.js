@@ -1,1 +1,5 @@
-alert("This is in the js file");
+// Javascript
+
+var a = 2;
+a + 3;
+console.log(a);
