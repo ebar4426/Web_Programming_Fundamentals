@@ -1,6 +1,5 @@
 // Javascript
 
-var a = 2;
-var b;
-b = a + 3;
-console.log(a);
+var yearBorn = 1992;
+var age = 2013 - yearBorn;
+console.log(age);
