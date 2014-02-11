@@ -1,8 +1,11 @@
 // Javascript
 
-// area of triangle is half of the width times the height
+var quiz1 = 85;
+var quiz2 = 95;
+var quiz3 = 100;
+var quiz4 = 85;
 
-var width = 8;
-var height = 7;
-var area = width * height/2;
-console.log(area);
+// the average of the items is the sum of the items divided by the number of items
+
+var average = (quiz1 + quiz2 + quiz3 + quiz4)/4;
+console.log(average);
