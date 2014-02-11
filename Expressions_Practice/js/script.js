@@ -1,5 +1,6 @@
 // Javascript
 
 var a = 2;
-a + 3;
+var b;
+b = a + 3;
 console.log(a);
