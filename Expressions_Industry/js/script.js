@@ -9,3 +9,4 @@ var averagePerDay = totalPay / 7;//this is used to find out the average amount o
 console.log("Your employer will be required to pay you $" + totalPay + " and on average you make $" + averagePerDay + " every day that you work.");//this is what will be displayed in the console of your browser
 
 //Thank you for using our pay calculator, we hope you find this usefull for your needs :)
+
