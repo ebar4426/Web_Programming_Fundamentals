@@ -6,4 +6,4 @@ var hoursWorked = [8, 7, 9, 6, 4, 6, 11];//Here please enter the number of hours
 var payPerHour = 30;//please enter your pay an hour that your employer is paying you.
 var totalPay = (hoursWorked[0] + hoursWorked[1] + hoursWorked[2] + hoursWorked[3] + hoursWorked[4] + hoursWorked[5] + hoursWorked[6])* payPerHour;//this is the formula to find out how much your employer needs to pay you 
 var averagePerDay = totalPay / 7;//this is used to find out the average amount of money made each day.
-console.log("Your employer will be required to pay you $" + totalPay + " and on average you make $" + averagePerDay + " every day that you work.")
+console.log("Your employer will be required to pay you $" + totalPay + " and on average you make $" + averagePerDay + " every day that you work.");
