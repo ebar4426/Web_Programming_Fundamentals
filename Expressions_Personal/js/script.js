@@ -9,3 +9,4 @@ var total = (numClass * time * days)/week;//this is the fomrula to solve the pro
 alert("You spend an average of " + total + "hr/day doing homework per day each week that you are in shcool!");//this is the alert that the user gets to see
 console.log("You spend an average of " + total + "hr/day each week that you are in shcool.");//This is the console answer
 
+//Thank you For using this calculator hope this works for your needs :)
