@@ -7,3 +7,4 @@ var cansPerDay = prompt("How many cans/bottles/cups of that size do you drink ea
 var daysAWeek = prompt("How many days a week do you drink coke or soda?");
 var year = 52;
 var sugarPerOunce = 2.8;
+var total = ((sizeCan * sugarPerOunce)* cansPerDay)* daysAWeek * year;
