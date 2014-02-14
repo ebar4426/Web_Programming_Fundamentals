@@ -12,3 +12,5 @@ var total = ((sizeCan * sugarPerOunce)* cansPerDay)* daysAWeek * year;//fomula t
 var cups = total / rawSugar;//used to calculate the number of cups per year
 alert("On average with the current amount of sugar per ounce of soda and coke, each year you consume " + total + "g of sugar!!! There is 200g of sugar in 1 cup of plain sugar!!!!! So you consume " + cups + " cups of raw sugar!!"); //displays the amount of sugar to user
 console.log("On average with the current amount of sugar per ounce of soda and coke, each year you consume " + total + "g of sugar!!! There is 200g of sugar in 1 cup of plain sugar!!!!! So you consume " + cups + " cups of raw sugar!!");//displays the amount of sugar in the console
+
+//Thank you for using the soda or coke sugar calculator hope this showes you some insite to the amount of sugar soda and coke contain.
