@@ -7,5 +7,5 @@ var days = prompt("How many days a week do you spend doing homework.");//asked t
 var week = 7;//this is the constant for the number of days in a week
 var total = (numClass * time * days)/week;//this is the fomrula to solve the problem and find out how many hours on average of each day 
 alert("You spend an average of " + total + "hr/day doing homework per day each week that you are in shcool!");//this is the alert that the user gets to see
-console.log("You spend an average of " + total + "hr/day each week that you are in shcool!");//This is the console answer
+console.log("You spend an average of " + total + "hr/day each week that you are in shcool.");//This is the console answer
 
