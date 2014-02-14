@@ -9,5 +9,6 @@ var year = 52;
 var sugarPerOunce = 2.8;
 var rawSugar = 200;
 var total = ((sizeCan * sugarPerOunce)* cansPerDay)* daysAWeek * year;
-var cups = 
-alert("On average with the current amount of sugar per ounce of soda and coke, each year you consume " + total + "g of sugar!!! There is 200g of sugar in 1 cup of plain sugar!!!!!")
+var cups = total / rawSugar;
+alert("On average with the current amount of sugar per ounce of soda and coke, each year you consume " + total + "g of sugar!!! There is 200g of sugar in 1 cup of plain sugar!!!!! So you consume " + cups + " cups of raw sugar!!");
+console.log()
