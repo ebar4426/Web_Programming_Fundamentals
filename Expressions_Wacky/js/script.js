@@ -5,4 +5,4 @@
 var sizeCan = prompt("What size of can/bottle/cup do you usualy drink when consuming a coke or soda? (ex. 12oz 16oz 32oz.....)");
 var cansPerDay = prompt("How many cans/bottles/cups of that size do you drink each day you deside to drink a soda or coke?");
 var daysAWeek = prompt("How many days a week do you drink coke or soda?");
-var
+var year = 52;
