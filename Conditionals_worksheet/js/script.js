@@ -24,7 +24,7 @@ if(unit === "f"){//to determin if a Celsius conversion
 // gives correct answer every time just make sure to change the unit of the temp you are trying to convert
 
 //Group 2: Multiple Results
-//Check the Login
+Check the Login
 
 var entUserName = "ericdb";//prompt("Please enter your user name");//this is for user to enter user name. You can remove first comment so you can enter promps on browser
 var entPassword = "password";//prompt("Please enter your password");//this is for user to enter password. You can remove first comment so you can enter promps on browser
