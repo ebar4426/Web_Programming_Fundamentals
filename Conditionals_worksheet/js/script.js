@@ -24,7 +24,7 @@ if(unit === "f"){//to determin if a Celsius conversion
 // gives correct answer every time just make sure to change the unit of the temp you are trying to convert
 
 //Group 2: Multiple Results
-Check the Login
+//Check the Login
 
 var entUserName = "ericdb";//prompt("Please enter your user name");//this is for user to enter user name. You can remove first comment so you can enter promps on browser
 var entPassword = "password";//prompt("Please enter your password");//this is for user to enter password. You can remove first comment so you can enter promps on browser
@@ -39,5 +39,13 @@ if(entUserName === userName && entPassword === password){//this is used to deter
 }
 //This code is used to verifi a user name and password you can change the userName and password then go to a browser and enter your username and password you changed to see it in action
 
-//
+//Group 3: Multiple Conditions
+//Tire Pressure 1
+
+var tirePressure = [35, 35, 37, 37];//this is the array contanin all tire pressues of the car the first two are the front and the last two are the rear pressures
+if(tirePressure[0] === tirePressure[1] && tirePressure[2] === tirePressure[3]){//used to make sure that front are same and back
+	console.log("The tires pass spec!");//display message	
+}else{
+	console.log("Get your tires checked out!");//if they dont match this will be the message.
+}
 
