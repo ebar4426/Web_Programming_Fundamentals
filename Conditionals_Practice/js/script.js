@@ -16,28 +16,9 @@
 //}
 // logical operators
 
-var budget = 300;
-var iPhonePrice = 199.99;
-var paycheck = 200;
-
-if(iPhonePrice < budget && paycheck > 300){
-	console.log("We can buy the phone!");
-}else{
-	colsole.log("No phone for you!!");
-}
-if(paycheck > 300){
-	console.log("We can buy the phone!");
-}else{
-	colsole.log("No phone for you!!");
-}
-
-
 var age = 11;
 var book;
 //if kid is under 10 they get green egs and ham otherwise they get the time machine 
-if(age < 10){
-	book = "Green Eggs and Ham";
-}else{
-	book = "The Time Machine";
-}
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+
 console.log(book);
