@@ -7,7 +7,7 @@ var totalPre = priceOfItems[0] + priceOfItems[1] + priceOfItems[2] + priceOfItem
 var discount;//discount total
 var total;//total with tax and discount if aplicable.
 if(discountCard >= .001){//to find out if dicount card is aplicable
-	discount = totalPre * discountCard;
+	discount = totalPre * discountCard;//how to calculate the discount.
 	total = (totalPre - discount)* 1.0825;//total with discount and tax
 	console.log("Your total before tax and your discount card was $" + totalPre + " your total with your discounts and tax is $" + total + " you saved $" + discount + "!");
 }else{
