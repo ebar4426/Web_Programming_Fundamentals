@@ -12,10 +12,10 @@ if(firstAns === "yes"){//to make sure this step has been taken
 			forthAns = prompt("Almost done! Last but certainly not the least. Have you Validated your web site? If yes please type yes, if not please type no.");//fourth prompt asking user for input
 			if (forthAns = "yes"){//last check to make sure answer is yes
 				alert("Awesome!! Your site is ready for launch all major parts have been looked over! Good Luck!!");//final message once all check are made
-			}else{
+			}else{//what it will read if final answer is no
 				alert("Please make sure you look over this step. Its important to double or triple check your site before launch.");
 			}
-		}else{
+		}else{//what it will read if third answer is no
 			alert("Please make sure you look over this step. Its important to double or triple check your site before launch.");
 		}
 	}else{
