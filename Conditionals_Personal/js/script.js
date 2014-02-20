@@ -6,11 +6,11 @@ var discountCard = [.15];//please add the precent of your member ship card disco
 var totalPre = priceOfItems[0] + priceOfItems[1] + priceOfItems[2] + priceOfItems[3] + priceOfItems[4] + priceOfItems[5] + priceOfItems[6];
 var discount;
 var total;
-if(discountCard >= .001){
+if(discountCard > 0){
 	discount = totalPre * discountCard;
 	total = (totalPre - discount)* 1.0825;//total with discount and tax
-	cosole.log("Your total before tax and your discount card was $" + totalPre + " your total with your discounts and tax is $" + total + " you saved $" + discount + ".");
+	console.log("Your total before tax and your discount card was $" + totalPre + " your total with your discounts and tax is $" + total + " you saved $" + discount + "!");
 }else{
 	total = totalPre * 1.0825;
-	console.log("Your total before tax is $" + totalPre + " your total with tax is $" + total + ".");
+	console.log("Your total before tax is $" + totalPre + " your total with tax is $" + total + "!");
 }
