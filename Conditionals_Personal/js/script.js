@@ -8,5 +8,6 @@ var discount;
 var total;
 if(discountCard >= .001){
 	discount = totalPre * discountCard;
-	total =  
+	total = (totalPre - discount)* 1.0825;//total with discount and tax
+	cosole.log()
 }
