@@ -7,10 +7,10 @@ var forthAns;//for fourth answer
 if(firstAns === "yes"){//to make sure this step has been taken
 	secAns = prompt("Ok! Great! Now have you checked the Compatibility with other web browsers? If yes please type yes, if not please type no.");//prompt to next question if previous answer was yes
 	if(secAns === "yes"){//to make sure secound answer was yes
-		thirAns = prompt("Good! Ok have you Checked and made sure that your images are optimized and displaying properly? If yes please type yes, if not please type no.");//prompt for 
-		if(thirAns === "yes"){
-			forthAns = prompt("Almost done! Last but certainly not the least. Have you Validated your web site? If yes please type yes, if not please type no.");
-			if (forthAns = "yes"){
+		thirAns = prompt("Good! Ok have you Checked and made sure that your images are optimized and displaying properly? If yes please type yes, if not please type no.");//prompt for third question 
+		if(thirAns === "yes"){//to make sure answer is yes and move on in the check list
+			forthAns = prompt("Almost done! Last but certainly not the least. Have you Validated your web site? If yes please type yes, if not please type no.");//fourth prompt asking user for input
+			if (forthAns = "yes"){//last check to make sure answer is yes
 				alert("Awesome!! Your site is ready for launch all major parts have been looked over! Good Luck!!");
 			}else{
 				alert("Please make sure you look over this step. Its important to double or triple check your site before launch.");
