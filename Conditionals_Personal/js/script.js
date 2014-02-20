@@ -9,5 +9,8 @@ var total;
 if(discountCard >= .001){
 	discount = totalPre * discountCard;
 	total = (totalPre - discount)* 1.0825;//total with discount and tax
-	cosole.log()
+	cosole.log("Your total before tax and your discount card was $" + totalPre + " your total with your discounts and tax is $" + total + " you saved $" + discount + ".");
+}else{
+	total = totalPre * 1.0825;
+	console.log("Your total before tax is $" + totalPre + " your total with tax is $" + total + ".");
 }
