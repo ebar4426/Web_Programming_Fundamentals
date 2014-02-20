@@ -1,6 +1,6 @@
 //conditionals Practice
 
-var kidHeight = 40;
+var kidHeight = 47;
 var minHeight = 48;
 //if child is old enough. print to the console "you can ride!"
 if(kidHeight + 2 > minHeight){
