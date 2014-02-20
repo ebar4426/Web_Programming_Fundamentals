@@ -22,3 +22,22 @@ if(unit === "f"){//to determin if a Celsius conversion
 }
 // you can enter any of the data set to find out the answers here they are 32F is 0C 100C is 212F 90F is 32.22C
 // gives correct answer every time just make sure to change the unit of the temp you are trying to convert
+
+//Group 2: Multiple Results
+//Check the Login
+
+var entUserName = "ericdb";//prompt("Please enter your user name");//this is for user to enter user name. You can remove first comment so you can enter promps on browser
+var entPassword = "password";//prompt("Please enter your password");//this is for user to enter password. You can remove first comment so you can enter promps on browser
+var userName = "ericdb";//this is the correct user name
+var password = "password";//this is the correct password
+if(entUserName === userName && entPassword === password){//this is used to determin if the password and username the user entered are correct
+	console.log("Welcome, " + userName + "!");//welcome message
+}else if(entUserName != userName){//this is what is used to determin if user name is incorect 
+	console.log("User not found. Try again.");//this is what displays if the username is incorrect 
+}else if(entPassword != password){//this is used to determin if password is incorrect
+	console.log("Password does not match our records.");//this is used to display that password is incorrect
+}
+//This code is used to verifi a user name and password you can change the userName and password then go to a browser and enter your username and password you changed to see it in action
+
+//
+
