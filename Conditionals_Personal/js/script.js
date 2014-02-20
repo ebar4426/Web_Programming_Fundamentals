@@ -12,5 +12,5 @@ if(discountCard >= .001){//to find out if dicount card is aplicable
 	console.log("Your total before tax and your discount card was $" + totalPre + " your total with your discounts and tax is $" + total + " you saved $" + discount + "!");//message if you have a discount applied 
 }else{
 	total = totalPre * 1.0825;//how to calculate if no discount card is applied 
-	console.log("Your total before tax is $" + totalPre + " your total with tax is $" + total + "!");
+	console.log("Your total before tax is $" + totalPre + " your total with tax is $" + total + "!");//message if no discount is applied
 }
