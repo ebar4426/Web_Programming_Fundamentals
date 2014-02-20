@@ -18,9 +18,9 @@ if(firstAns === "yes"){//to make sure this step has been taken
 		}else{//what it will read if third answer is no
 			alert("Please make sure you look over this step. Its important to double or triple check your site before launch.");
 		}
-	}else{
+	}else{//what it will read if second answer is no
 		alert("Please make sure you look over this step. Its important to double or triple check your site before launch.");
 	}
-}else{
+}else{//what is will read if first answer is no
 	alert("Please make sure you look over this step. Its important to double or triple check your site before launch.");
 }
