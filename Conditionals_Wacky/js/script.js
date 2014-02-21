@@ -1,9 +1,9 @@
 //Eric Barrera 2/19/2014 Conditionals Assignment
 //this is my wacky code. it is a storry where you make the dessisions.
-var firstDesision;
-var secondDesision;
-var thirdDesision;
-alert("This is a decision making story! Lets begin, to set the location you arrive at a dark and spooky house that you have to inspect. There are lots of rumors about this place. You are a reporter that’s never been scared of a challenge. You want to get the scoop on this place, it could make your carrer. Your boss gave you a deadline of tomorrow. Wanting the best time for paranormal activity you decide to go tonight! You have your head camera and headset to document all your adventures. To make matters worse, a huge storm is rolling in. You've been given a key by the owners of the property. You open the front door and step inside......");
+var firstDesision;//first desision variable
+var secondDesision;//second dessision variable
+var thirdDesision;//third desision variable
+alert("This is a decision making story! Lets begin, to set the location you arrive at a dark and spooky house that you have to inspect. There are lots of rumors about this place. You are a reporter that’s never been scared of a challenge. You want to get the scoop on this place, it could make your carrer. Your boss gave you a deadline of tomorrow. Wanting the best time for paranormal activity you decide to go tonight! You have your head camera and headset to document all your adventures. To make matters worse, a huge storm is rolling in. You've been given a key by the owners of the property. You open the front door and step inside......"); //intro alert
 firstDesision = prompt("You step inside a very dusty entrance. You hear foot steps up the stairs and start to see a shadow. You take up your options. You can go up stairs or can leave right now before it gets bad. Make your desision. Type 1 to go upstairs, Type 2 to go out front door.");
 if(firstDesision === "1"){
 	secondDesision = prompt("You walk up stairs and see a shadow race to an open room, your camera picks up movement and you document what you saw by speaking into the headset. Your options are, The open door room, The room with a closed door or take evidence and leave. Type 1 for open room. Type 2 for closed room. Type 3 for Take evidence and leave.");
@@ -20,6 +20,6 @@ if(firstDesision === "1"){
 		alert("You take the little evidence you have and turn it in the next day. Your boss likes what you have but really wants more. He wants more prof of this haunted house. He gives you a pat on back and says good work, Maybe next time. THE END!!!!");
 	}
 }else if(firstDesision === "2"){//this is for the no ending
-	alert("You go home defeated, you feel bad that you didn’t even make an attempt at investigating the house. You don’t show up to work the next day, and loose your job. THE END!!!!!")
+	alert("You go home defeated, you feel bad that you didn’t even make an attempt at investigating the house. You don’t show up to work the next day, and loose your job. THE END!!!!!");
 }
 
