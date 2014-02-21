@@ -19,7 +19,7 @@ if(firstDesision === "1"){
 	}else if(secondDesision === "3"){//this is for the moderate ending
 		alert("You take the little evidence you have and turn it in the next day. Your boss likes what you have but really wants more. He wants more prof of this haunted house. He gives you a pat on back and says good work, Maybe next time. THE END!!!!");
 	}
-}else if(firstDesision === "2"){//this is for the no ending
+}else if(firstDesision === "2"){//this is for the very bad ending
 	alert("You go home defeated, you feel bad that you didn’t even make an attempt at investigating the house. You don’t show up to work the next day, and loose your job. THE END!!!!!");
 }
 
