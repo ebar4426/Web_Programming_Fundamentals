@@ -12,15 +12,17 @@ if(firstDesision === "1"){
 	secondDesision = prompt("You walk up stairs and see a shadow race to an open room, your camera picks up movement and you document what you saw by speaking into the headset. Your options are, The open door room, The room with a closed door or take evidence and leave. Type 1 for open room. Type 2 for closed room. Type 3 for Take evidence and leave.");
 	if(secondDesision === "1"){//this is for the good ending
 		thirdDesision = prompt("You walk in to the room with the open door following the shadow as if it were guiding you. You discover a handwriten diary on top of a night stand. You here a faint voice tell you Thank you. your camera starts acting strange and headset starts making a weird noise. You feel as if the spirit made some sort of contace with you. Your options are Go home with what you have found, or check the room with the closed door....Type 1 for room with closed door or Type 2 for go home with what you have found.");
-		if(thirdDesision === "2"){
+		if(thirdDesision === "2"){//for good ending
 			
-		}else if(thirdDesision === "1"){
-			
+		}else if(thirdDesision === "1"){//for bad ending
+			alert("You open door and are imediatly thrown against the wall. you loose all your equipment and all evedance. You hear a loud voice yell GET OUT!!!! as soon as you get up you run for it. You get home and dont get story of your life. THE END!!!");
 		}
 	}else if(secondDesision === "2"){//this is for the bad ending
-		
+		alert("You open door and are imediatly thrown against the wall. you loose all your equipment and all evedance. You hear a loud voice yell GET OUT!!!! as soon as you get up you run for it. You get home and dont get story of your life. THE END!!!");
 	}else if(secondDesision === "3"){//this is for the moderate ending
 		
 	}
+}else if(firstDesision === "2"){//this is for the no ending
+	
 }
 
