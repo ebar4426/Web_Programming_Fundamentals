@@ -10,7 +10,7 @@ if(firstDesision === "1"){
 	if(secondDesision === "1"){//this is for the good ending
 		thirdDesision = prompt("You walk in to the room with the open door following the shadow as if it were guiding you. You discover a handwritten diary on top of a night stand. You here a faint voice tell you Thank you. your camera starts acting strange and headset starts making a weird noise. You feel as if the spirit made some sort of contact with you. Your options are Go home with what you have found, or check the room with the closed door....Type 1 for room with closed door or Type 2 for go home with what you have found.");
 		if(thirdDesision === "2"){//for good ending
-			alert("You go home with all the amazing evidence and diary. You read threw it and discover an amazing description of the entire account and why house became haunted. You decide to go solo and write a novel using your own personal account and the diary. It becomes a huge hit. You've exceeded your own expectations! THE END!!!!")
+			alert("You go home with all the amazing evidence and diary. You read threw it and discover an amazing description of the entire account and why house became haunted. You decide to go solo and write a novel using your own personal account and the diary. It becomes a huge hit. You've exceeded your own expectations! THE END!!!!");
 		}else if(thirdDesision === "1"){//for bad ending
 			alert("You open door and are immediately thrown against the wall. you loose all your equipment and all evidence. You hear a loud voice yell GET OUT!!!! as soon as you get up you run for it. You get home and don’t get story of your life. THE END!!!");
 		}
