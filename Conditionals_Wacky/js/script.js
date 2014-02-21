@@ -3,9 +3,6 @@
 var firstDesision;
 var secondDesision;
 var thirdDesision;
-var badEnd;
-var okEnd;
-var goodEnd;
 alert("This is a decision making story! Lets begin, to set the location you arrive at a dark and spooky house that you have to inspect. There are lots of rumors about this place. You are a reporter that’s never been scared of a challenge. You want to get the scoop on this place, it could make your carrer. Your boss gave you a deadline of tomorrow. Wanting the best time for paranormal activity you decide to go tonight! You have your head camera and headset to document all your adventures. To make matters worse, a huge storm is rolling in. You've been given a key by the owners of the property. You open the front door and step inside......");
 firstDesision = prompt("You step inside a very dusty entrance. You take up your options. You can go up stairs or can leave right now before it gets bad. Make your desision. Type 1 to go upstairs, Type 2 to go out front door.");
 if(firstDesision === "1"){
@@ -13,7 +10,7 @@ if(firstDesision === "1"){
 	if(secondDesision === "1"){//this is for the good ending
 		thirdDesision = prompt("You walk in to the room with the open door following the shadow as if it were guiding you. You discover a handwriten diary on top of a night stand. You here a faint voice tell you Thank you. your camera starts acting strange and headset starts making a weird noise. You feel as if the spirit made some sort of contace with you. Your options are Go home with what you have found, or check the room with the closed door....Type 1 for room with closed door or Type 2 for go home with what you have found.");
 		if(thirdDesision === "2"){//for good ending
-			
+			alert()
 		}else if(thirdDesision === "1"){//for bad ending
 			alert("You open door and are imediatly thrown against the wall. you loose all your equipment and all evedance. You hear a loud voice yell GET OUT!!!! as soon as you get up you run for it. You get home and dont get story of your life. THE END!!!");
 		}
