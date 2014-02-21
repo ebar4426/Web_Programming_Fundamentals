@@ -17,7 +17,7 @@ if(firstDesision === "1"){
 	}else if(secondDesision === "2"){//this is for the bad ending
 		alert("You open door and are immediately thrown against the wall. you loose all your equipment and all evidence. You hear a loud voice yell GET OUT!!!! as soon as you get up you run for it. You get home and don’t get story of your life. THE END!!!");
 	}else if(secondDesision === "3"){//this is for the moderate ending
-		
+		alert("You take the little evidence you have and turn it in the next day. Your boss likes what you have but really wants more. He wants more prof of this haunted house. he gives you a pat on back and says good work, Maybe next time. THE END!!!!");
 	}
 }else if(firstDesision === "2"){//this is for the no ending
 	
