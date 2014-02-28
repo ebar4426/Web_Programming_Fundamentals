@@ -8,11 +8,11 @@ function bandCalc(networkBand, localBpsToNet, numberOfUsers){//here are the argu
 	var bpsSecond = (networkBand * bpsFirst)/ 8;//this is for finding out the Bps of the network or aplication thats hosting your computer
 	var howManyCan = bpsSecond / localBpsToNet;//formula to find out how many people can use the server at one time
 	var yourAppSpeed = localBpsToNet / 125000;
-	if(numberOfUsers < howManyCan){
-		var answer = "The amount of people that can use this application or server at " + networkBand + "Mbps are " + howManyCan + " using your computers utilazation at " + yourAppSpeed + "Mbps.";
-		return answer;
-	}else if(numberOfUsers > howManyCan){
-		var answertwo = "Sorry your currents settings dont allow your set amount of Users.";
+	if(numberOfUsers < howManyCan){//used to find out if we can use the current numeral input from user
+		var answer = "The amount of people that can use this application or server at " + networkBand + "Mbps are " + howManyCan + " using your computers utilazation at " + yourAppSpeed + "Mbps.";//variable that will be printed out when it returns
+		return answer;//return data
+	}else if(numberOfUsers > howManyCan){//if there are more useres than the server or application can handle
+		var answertwo = "Sorry your currents settings dont allow your set amount of Users.";//display message
 		return answertwo;
 	}
 }
