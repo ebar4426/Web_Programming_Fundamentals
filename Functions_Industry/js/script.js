@@ -1,12 +1,20 @@
-// This is the Industry Expressions page...
-
-//On this page we will demonstrate arrays and find out how they can help in mathmatical calculations. In this expression we will be calculating the amout of time spent developing a web site. In this example we will only be doing the hours in one week. And we will then find out how much the contractor must pay you the developer for your work.
-
-var hoursWorked = [8, 7, 9, 6, 4, 6, 11];//Here please enter the number of hours worked this week. This is to find out how many hours have been worked in total
-var payPerHour = 30;//please enter your pay an hour that your employer is paying you.
-var totalPay = (hoursWorked[0] + hoursWorked[1] + hoursWorked[2] + hoursWorked[3] + hoursWorked[4] + hoursWorked[5] + hoursWorked[6])* payPerHour;//this is the formula to find out how much your employer needs to pay you 
-var averagePerDay = totalPay / 7;//this is used to find out the average amount of money made each day.
-console.log("Your employer will be required to pay you $" + totalPay + " and on average you make $" + averagePerDay + " every day that you work.");//this is what will be displayed in the console of your browser
-
-//Thank you for using our pay calculator, we hope you find this usefull for your needs :)
-
+//Eric Barrera 2/26/2014 Functions assignment
+//Industry function
+//This calculator will help you understand how much bandwith you will need for your network and calculate how fast your computer is reciving data.
+//Before you start using the calculator please find out the speed of your network or server and find out how fast your computer is reciving data using your terminal by sending packets to that particular network or server and how many useres will be using it at the same time.
+function bandCalc(networkBand, localBpsToNet, numberOfUsers){
+	var bpsFirst = 1000000;
+	var conver = 125000;
+	var bpsSecond = (networkBand * bpsFirst)/ 8;//this is for finding out the Bps of the network or aplication thats hosting your computer
+	var howManyCan = bpsSecond / localBpsToNet;
+	var yourAppSpeed = localBpsToNet / 125000;
+	if(numberOfUsers < howManyCan){
+		var answer = "The amount of people that can use this application or server at " + networkBand + "Mbps are " + howManyCan + " using your computers utilazation at " + yourAppSpeed + "Mbps.";
+		return answer;
+	}else if(numberOfUsers > howManyCan){
+		var answertwo = "Sorry your currents settings dont allow your set amount of Users.";
+		return answertwo;
+	}
+}
+var lastAnswer = bandCalc(100, 200000, 40);
+console.log(lastAnswer);
