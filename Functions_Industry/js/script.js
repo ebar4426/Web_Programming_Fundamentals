@@ -13,8 +13,8 @@ function bandCalc(networkBand, localBpsToNet, numberOfUsers){//here are the argu
 		return answer;//return data
 	}else if(numberOfUsers > howManyCan){//if there are more useres than the server or application can handle
 		var answertwo = "Sorry your currents settings dont allow your set amount of Users.";//display message
-		return answertwo;
+		return answertwo;//return answer
 	}
 }
-var lastAnswer = bandCalc(100, 200000, 40);
-console.log(lastAnswer);
+var lastAnswer = bandCalc(100, 200000, 40);//please input your info for the set up you would like to test
+console.log(lastAnswer);//how info gets printed to the console.
